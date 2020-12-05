@@ -7,6 +7,23 @@
 body {
     background-color: #d9dcd6;
 }
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
 
 /* Header Start */
 header {
@@ -25,7 +42,7 @@ span {
     color: #d9dcd6;
 }
 
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,17 +56,9 @@ header ul li {
     list-style-type: none
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 /* Header End */
 
-
-p {
-    font-size: 16px;
-}
-
+/* Hero Start */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,18 +67,32 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* Hero End */
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+/* Content (Left) Start */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
-
-.float-right {
-    float: right;
-    margin-left: 25px;
+.sub-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
+.sub-content img {
+    max-height: 200px;
+}
+.sub-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Content (Left) End */
 
-/* Benefits Start */
+/* Benefits (Right) Start */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -96,30 +119,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/* Benefits End */
-
-/* Content (left) Start */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-.sub-content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.sub-content img {
-    max-height: 200px;
-}
-.sub-content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* Sub-Content (left) End */
+/* Benefits (Right) End */
 
 /* Footer Start */
 footer {
@@ -129,7 +129,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
 /* Footer End */
