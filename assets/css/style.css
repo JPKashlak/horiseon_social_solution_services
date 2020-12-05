@@ -25,7 +25,7 @@ p {
     margin-left: 25px;
 }
 
-/* Header Start */
+/* Header & Nav Start */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -55,8 +55,7 @@ header ul li {
     margin-left: 25px;
     list-style-type: none
 }
-
-/* Header End */
+/* Header & Nav End */
 
 /* Hero Start */
 .hero {
@@ -131,5 +130,4 @@ footer {
 
 footer h4 {
     font-size: 20px;
-}
-/* Footer End */
+}/* Footer End */
